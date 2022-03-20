@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Pokedex Launch X</title>
+</head>
+<body>
+    <div class="container">
+        <div id="iz">
+            <div id="iz-botones-sup">
+                <span class="dot" id="gdot"></span>
+                <span class="dot" id="dot-red"></span>
+                <span class="dot" id="dot-yellow"></span>
+                <span class="dot" id="dot-green"></span>
+            </div>
+            <div id="iz-container">
+                <div id="pantalla-container">
+                    <div id="pantalla-imagen">
+                        <input type="text" id="pokemon" name="pokemon" placeholder="Pikachu">
+                        <button id="go" onclick="peticion()">Go!</button>
+                        <button id="back" onclick="atras()">Back!</button>
+                        <img src="./pokeball.gif" alt="pokeball" id="pokeball">
+                    </div>
+                </div>
+                <div id="botones-container">
+                    <span class="dot" id="boton-negro"></span>
+                    <div id="botones-pantalla">
+                        <div class="boton" id="rojo"></div>
+                        <div class="boton" id="azul"></div>
+                        <div id="pantalla-verde"></div>
+                    </div>
+                    <div id="flechas">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="med">
+            <div id="barra-top"></div>
+            <div id="barra-bot"></div>
+        </div>
+        <div id="der">
+            <div id="der-container">
+                <div id="contenedor-negro">
+                    <div id="tipo-pokemon">
+
+                    </div>
+                    <div id="estadisticas">
+                        <div id="est1"></div>
+                        <div id="est2"></div>
+                        <div id="est3"></div>
+                        <div id="est4"></div>
+                        <div id="est5"></div>
+                        <div id="est6"></div>
+                    </div>
+                </div>
+                <div id="contenedor-azul">
+                    <div id="mov1"></div>
+                    <div id="mov2"></div>
+                    <div id="mov3"></div>
+                    <div id="mov4"></div>
+                </div>
+                <div id="contenedor-inferior">
+                    <div id="cont-inf-izq">
+                        <div id="inf-izq-blanc">
+                            <div></div>
+                            <div></div>
+                        </div>                        
+                        <div id="inf-izq-neg">
+                            
+                        </div>
+                    </div>
+                    <div id="cont-inf-der">
+                        <div class="boton"></div>
+                        <div class="boton"></div>
+                        <span class="dot"></span>
+                        <div id="inf-der-neg">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+    <script src="./script.js"></script>
+</footer>
+</html>
